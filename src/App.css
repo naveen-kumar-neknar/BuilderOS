@@ -1,0 +1,7 @@
+/* Minimal HackWave App Shell Layout Overrides */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+}

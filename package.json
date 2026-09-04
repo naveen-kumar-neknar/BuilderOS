@@ -1,0 +1,36 @@
+{
+  "name": "hackwave",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "agent": "node server/agent.js",
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\"",
+    "dev:all": "concurrently -n \"SERVER,AGENT,CLIENT\" -c \"blue.bold,magenta.bold,green.bold\" \"npm run server\" \"npm run agent\" \"npm run dev\""
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^1.40.0",
+    "mongodb": "^6.18.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "concurrently": "^9.2.1",
+    "oxlint": "^1.79.0",
+    "vite": "^8.2.2"
+  }
+}
