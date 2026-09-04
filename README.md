@@ -1,1092 +1,989 @@
-🚀 BuilderOS — AI-Powered Developer Environment & Tooling Platform
+# 🚀 BuilderOS – AI-Powered Developer Technology & Environment Platform
 
-Discover the right developer tools, build compatible stacks, install them locally, and verify your environment — all from one intelligent platform.
+> An intelligent developer platform that helps developers discover, compare, choose, install, and verify essential development tools from one unified workspace using AI-powered recommendations and a local installation agent.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI-Featherless.ai-blueviolet?style=for-the-badge" alt="AI">
-  <img src="https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
-  <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/API-Express-black?style=for-the-badge&logo=express" alt="Express">
-  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/API-Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Featherless.ai-7C3AED?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <b>Discover</b> → <b>Decide</b> → <b>Install</b> → <b>Verify</b> → <b>Build</b>
+  🔎 <b>Discover</b> → 🤖 <b>Recommend</b> → ⚡ <b>Install</b> → ✅ <b>Verify</b> → 💻 <b>Build</b>
 </p>
 
-📌 Table of Contents
+---
 
-Project Overview
+# 📌 Table of Contents
 
-Team BuilderOS
+- [🧠 Project Overview](#-project-overview)
+- [❗ Problem Statement](#-problem-statement)
+- [💡 Our Solution](#-our-solution)
+- [🎯 Objectives](#-objectives)
+- [✨ Key Features](#-key-features)
+- [🤖 AI-Powered Developer Assistant](#-ai-powered-developer-assistant)
+- [🧩 Developer Stacks](#-developer-stacks)
+- [⚡ Local Installation Agent](#-local-installation-agent)
+- [🔄 Installation Workflow](#-installation-workflow)
+- [🏗️ System Architecture](#-system-architecture)
+- [🧰 Technology Stack](#-technology-stack)
+- [👨‍💻 Developer Personas](#-developer-personas)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [🔐 Environment Variables](#-environment-variables)
+- [🔌 API Endpoints](#-api-endpoints)
+- [🏆 Hackathon Demo Flow](#-hackathon-demo-flow)
+- [🔮 Future Scope](#-future-scope)
+- [👥 Team](#-team)
+- [📜 License](#-license)
 
-Problem Statement
+---
 
-Our Solution
+# 🧠 Project Overview
 
-Objectives
+**BuilderOS** is an AI-powered developer technology and environment platform designed to simplify the process of discovering, selecting, installing, and managing the tools required for modern software development.
 
-Key Features
+Today's developers work with dozens of technologies including programming languages, frameworks, databases, AI/ML libraries, runtimes, package managers, containers, and CLI tools.
 
-What Makes BuilderOS Different
+Finding these technologies is easy.
 
-AI Developer Assistant
+Choosing the right technology, checking whether it is already installed, installing it correctly, and verifying the environment is much harder.
 
-How It Works
+BuilderOS brings these workflows together into one intelligent developer workspace.
 
-System Architecture
+### 🔄 Core Workflow
 
-Technology Stack
+    🔎 Discover
+         ↓
+    🤖 AI Recommendation
+         ↓
+    🧩 Select Technology / Stack
+         ↓
+    ⚡ Install Locally
+         ↓
+    ✅ Verify Environment
+         ↓
+    💻 Start Building
 
-Supported Developer Workflows
+---
 
-Project Structure
+# ❗ Problem Statement
 
-Installation & Setup
+Setting up a development environment is still a fragmented process.
 
-Environment Variables
+A developer commonly needs to:
 
-API Overview
+- Search multiple websites
+- Read documentation
+- Compare technologies
+- Find installation instructions
+- Open a terminal
+- Install the required tool
+- Check the installed version
+- Troubleshoot errors
 
-Security
+### Existing Workflow
 
-Hackathon Demo Flow
-
-Future Roadmap
-
-Project Vision
-
-Contributing
-
-License
-
-🧠 Project Overview
-
-BuilderOS is an AI-powered developer environment platform designed to simplify one of the most repetitive parts of software development: setting up and maintaining the developer workstation.
-
-Modern developers use dozens of technologies — runtimes, frameworks, databases, AI tools, package managers, containers and CLI utilities. Finding the right tools is already difficult; installing, verifying and maintaining them is even more fragmented.
-
-BuilderOS brings these workflows together into a single developer-first interface.
-
-Instead of simply showing links to tools, BuilderOS connects:
-
-Technology Discovery
+    Search Web
         ↓
-AI-Powered Recommendations
+    Read Documentation
         ↓
-Stack Selection
+    Compare Technologies
         ↓
-Local Installation
+    Find Installation Instructions
         ↓
-Installation Verification
+    Open Terminal
         ↓
-Environment Visibility
+    Install Tool
+        ↓
+    Check Version
+        ↓
+    Troubleshoot Errors
 
-🎯 One-line pitch
+This becomes especially difficult for:
 
-BuilderOS is an AI-powered local developer workstation that helps developers discover, choose, install and verify the tools required to build modern software.
+- Students
+- Beginners
+- Hackathon teams
+- Developers learning new technologies
+- Developers switching technology stacks
+- Developers setting up a new machine
 
-👥 Team BuilderOS
+### The Core Problem
 
-Built by our HackWave team:
+There is no single intelligent workflow connecting:
 
-Member
+**Technology Discovery → Recommendation → Installation → Verification**
 
-Role
+---
 
-Nagabrahmeswar Pusapati
+# 💡 Our Solution
 
-🧑‍✈️ Captain
+BuilderOS transforms developer environment setup into a unified workflow.
 
-Naveen Kumar Neknar
+### 🔎 Discover
 
-💻 Full-Stack Development & AI Integration
+Explore technologies through categories, filters, generations, pricing, and ecosystem information.
 
-Aditya Upadhyay
+### 🤖 Decide
 
-🛠️ Development & Product Engineering
+Ask the AI Developer Assistant which technologies are suitable for a specific project or use case.
 
-Anush Kumar
+### 🧩 Build Stacks
 
-🚀 Development & Testing
+Choose predefined developer stacks instead of manually selecting every tool.
 
-Team: Nagabrahmeswar Pusapati · Naveen Kumar Neknar · Aditya Upadhyay · Anush Kumar
+### ⚡ Install
 
-❗ Problem Statement
+Install supported technologies through the BuilderOS local installer agent.
 
-Setting up a development environment often requires developers to:
+### ✅ Verify
 
-Search across multiple websites for the right tools
+Verify whether the technology was actually installed and retrieve its detected version where supported.
 
-Compare frameworks and technologies manually
+### 💻 Build
 
-Determine compatibility between tools
+Once the environment is ready, developers can immediately continue building.
 
-Install software using different package managers
+### BuilderOS Workflow
 
-Check whether tools are already installed
+    Discover
+       ↓
+    Understand
+       ↓
+    AI Recommendation
+       ↓
+    Select Stack
+       ↓
+    Install
+       ↓
+    Verify
+       ↓
+    Build
 
-Find the correct version
+---
 
-Troubleshoot installation failures
+# 🎯 Objectives
 
-Reconfigure the same environment on another machine
+- Simplify developer environment setup
+- Reduce time spent searching for development tools
+- Help developers select suitable technologies
+- Provide AI-powered developer recommendations
+- Detect installed technologies
+- Automate supported installation workflows
+- Verify installation results
+- Provide predefined developer stacks
+- Support reproducible development environments
+- Reduce environment setup friction during hackathons and projects
 
-This creates a fragmented workflow:
+---
 
-Search → Compare → Download → Install → Configure → Verify → Troubleshoot
+# ✨ Key Features
 
-For beginners, this is confusing.
+## 🔎 1. Technology Explorer
 
-For experienced developers, it is repetitive.
+BuilderOS provides a searchable technology catalog covering major areas of software development.
 
-For hackathon teams, it wastes valuable development time.
+### Categories
 
-💡 Our Solution
+- 🎨 Frontend
+- ⚙️ Backend
+- 🤖 AI & LLM
+- 📊 Data Science
+- 🗄️ Databases
+- 🚀 DevOps
+- 🧩 Frameworks
+- 💻 Runtimes
+- 📦 Package Managers
+- 🛠️ Development Tools
 
-BuilderOS turns the fragmented setup process into one guided workflow:
+### Technology Generations
 
-┌──────────────────────────────────────────────┐
-│                 BuilderOS                    │
-├──────────────────────────────────────────────┤
-│                                              │
-│  🔎 Explore technologies                     │
-│            ↓                                 │
-│  🤖 Ask AI for recommendations               │
-│            ↓                                 │
-│  🧩 Select a developer stack                 │
-│            ↓                                 │
-│  ⚡ Install through local agent              │
-│            ↓                                 │
-│  ✅ Verify the actual installation           │
-│            ↓                                 │
-│  💻 Understand your environment              │
-│                                              │
-└──────────────────────────────────────────────┘
+| Generation | Description |
+|---|---|
+| 🚀 New & Cutting-Edge | Emerging technologies and modern developer tools |
+| ⚡ Current Standard | Modern production-ready technologies |
+| 🏛️ Battle-Tested Classic | Mature and proven technologies |
 
-The result is a single workflow where recommendation becomes action.
+---
 
-🎯 Objectives
+## 🤖 2. AI-Powered Developer Assistant
 
-Primary Objectives
-
-Simplify developer environment setup
-
-Reduce time spent searching for development tools
-
-Help developers choose technologies based on their workflow
-
-Provide real local installation capabilities
-
-Verify installation status instead of assuming success
-
-Integrate AI into practical developer workflows
-
-Secondary Objectives
-
-Support multiple developer personas
-
-Encourage modern and open-source tooling
-
-Make development stacks easier to reproduce
-
-Provide a foundation for future automated workstation management
-
-✨ Key Features
-
-🔎 1. Technology Explorer
-
-Browse and discover developer technologies through categories and filters.
-
-Developers can explore areas such as:
-
-Frontend
-
-Backend
-
-AI & LLM
-
-Data Science
-
-Databases
-
-DevOps
-
-Runtimes
-
-Frameworks
-
-Containers
-
-Package Managers
-
-Technologies are also grouped into:
-
-Generation
-
-Meaning
-
-🚀 New & Cutting-Edge
-
-Emerging technologies and modern workflows
-
-⚡ Current Standard
-
-Widely useful modern production choices
-
-🏛️ Battle-Tested Classic
-
-Mature and proven technologies
-
-🤖 2. AI Developer Assistant
-
-BuilderOS integrates Featherless AI to provide developer-focused recommendations.
+BuilderOS integrates **Featherless AI** into the developer workflow.
 
 Developers can ask questions such as:
 
-"Build me a free local AI development stack."
+> "Build me a free local AI development stack."
 
-"Which backend should I use for a Python project?"
+> "Which backend technology should I use?"
 
-"What should I install for a RAG application?"
+> "What tools do I need for a RAG application?"
 
-"Why did my installation fail?"
+> "Why did my installation fail?"
 
-The AI can use controlled BuilderOS context such as:
+The AI can work with controlled BuilderOS context including:
 
-Operating System
-+
-Installed Technologies
-+
-Technology Catalog
-+
-Developer Preferences
-+
-Current Stack
+    Operating System
+           +
+    Installed Technologies
+           +
+    Technology Catalog
+           +
+    Developer Preferences
+           +
+    Current Stack
 
-This makes the AI part of the workflow instead of being just another chatbot.
+This allows the AI to provide recommendations that are connected to the actual BuilderOS ecosystem.
 
-🧩 3. Developer Stacks
+---
+
+## 🧩 3. Developer Stacks
 
 BuilderOS provides predefined stacks for common development workflows.
 
-Examples include:
+### 🤖 AI & LLM Development
 
-🤖 Local AI & LLM Stack
+    Python
+    PyTorch
+    Ollama
+    Hugging Face
+    LangChain
+    LlamaIndex
+    ChromaDB
+    Qdrant
+    vLLM
 
-📚 RAG & Knowledge Systems
+### 🎨 Frontend Development
 
-🎨 Frontend Developer
+    Node.js
+    npm
+    React
+    Vite
+    Tailwind CSS
 
-⚙️ Backend Developer
+### ⚙️ Backend Development
 
-🐍 Python Developer
+    Node.js
+    Python
+    FastAPI
+    Express
+    PostgreSQL
+    MongoDB
+    Redis
 
-📊 Data Science & Analytics
+### 📊 Data Science
 
-🚀 DevOps & Containers
+    Python
+    JupyterLab
+    NumPy
+    Pandas
+    Polars
+    SciPy
+    Scikit-Learn
+    Matplotlib
+    DuckDB
 
-A stack gives developers a practical starting point instead of making them select every tool individually.
+### 🚀 DevOps
 
-💻 4. Real Environment Detection
+    Git
+    Docker
+    Node.js
+    Python
+    Databases
+    CLI Tools
 
-BuilderOS can communicate with a local installer agent to determine whether supported technologies are available on the machine.
+---
 
-Instead of displaying only:
+## 💻 4. Installed Technology Detection
 
-Install
+BuilderOS can communicate with the local installer agent to determine whether supported technologies are already installed.
 
-the platform can work with real environment states such as:
+The platform can represent states such as:
 
-✓ Installed
-○ Not Installed
-↻ Installing
-⚠ Verification Failed
-✕ Installation Failed
+    ✓ Installed
+    ○ Not Installed
+    ↻ Installing
+    ⚠ Verification Failed
+    ✕ Installation Failed
 
-Where available, the detected version can also be returned.
+Where supported, BuilderOS also retrieves the installed version.
 
-⚡ 5. Local Installation Agent
+---
 
-The browser itself should not execute arbitrary operating-system commands.
+## ⚡ 5. Local Installation Agent
 
-BuilderOS therefore separates the web application from OS-level installation through a local installer agent.
+One of BuilderOS's major differentiators is its local installation architecture.
 
-React Frontend
-      ↓
-Express API
-      ↓
-Local Installer Agent
-      ↓
-OS / Package Manager
-      ↓
-Installation
-      ↓
-Verification
-      ↓
-Result
+The browser should not directly execute arbitrary operating-system commands.
 
-This architecture makes the product more realistic than a UI that simply pretends to install software.
+Instead, BuilderOS uses a dedicated local installer agent.
 
-📦 6. CLI-Friendly Workflow
+    ┌─────────────────────────┐
+    │    BuilderOS Frontend   │
+    └────────────┬────────────┘
+                 ↓
+    ┌─────────────────────────┐
+    │      Express API        │
+    └────────────┬────────────┘
+                 ↓
+    ┌─────────────────────────┐
+    │ Local Installer Agent   │
+    └────────────┬────────────┘
+                 ↓
+    ┌─────────────────────────┐
+    │ OS / Package Manager    │
+    └────────────┬────────────┘
+                 ↓
+    ┌─────────────────────────┐
+    │ Installation + Verify   │
+    └─────────────────────────┘
 
-Developers who prefer the terminal can still use platform-provided installation commands.
+This allows BuilderOS to move beyond a simple developer-tools directory.
 
-BuilderOS therefore supports both:
+---
 
-Visual workflow
+## 📦 6. CLI Support
 
-and
+BuilderOS supports both visual and developer-native workflows.
 
-Developer-native CLI workflow
+### Visual Workflow
 
-🛠️ 7. AI Installation Troubleshooting
+    Select → Install → Verify
 
-When an installation fails, the platform can use the error context to help explain:
+### CLI Workflow
 
-Installation Error
-       ↓
-Error Analysis
-       ↓
-Likely Cause
-       ↓
-Recommended Fix
-       ↓
-Retry / Next Action
+    Copy Command → Terminal → Install
 
-The objective is to turn an unclear terminal error into an actionable developer explanation.
+This makes BuilderOS useful for both beginners and experienced developers.
 
-📤 8. Environment Export
+---
 
-BuilderOS can represent the detected environment as structured information containing details such as:
+## 🛠️ 7. AI Installation Troubleshooting
 
-Platform
+When an installation fails, BuilderOS can analyze available error information and provide actionable guidance.
 
-Technology
+    Installation Error
+           ↓
+    Capture Error
+           ↓
+    Sanitize Context
+           ↓
+    AI Analysis
+           ↓
+    Likely Cause
+           ↓
+    Recommended Fix
+           ↓
+    Retry
 
-Slug
+Instead of simply showing:
 
-Version
+    ❌ Installation failed
 
-Category
+BuilderOS aims to provide:
 
-Domain
+    🔍 What happened
+    💡 Why it happened
+    🛠️ How to fix it
+    🔁 What to do next
 
-This creates a foundation for reproducible developer environments.
+---
 
-🏆 What Makes BuilderOS Different?
+## 📤 8. Environment Export
 
-BuilderOS is not simply a developer-tools directory.
+BuilderOS can represent the detected developer environment using structured information such as:
 
-It combines four layers:
+- Platform
+- Technology
+- Version
+- Category
+- Domain
+- Technology slug
 
-1. 🔎 Discovery
+This creates a foundation for reproducible development environments.
 
-Find the technology.
+---
 
-2. 🧠 Intelligence
-
-Understand which technology fits the developer's requirements.
-
-3. ⚡ Execution
-
-Actually install supported technologies through the local agent.
-
-4. ✅ Verification
-
-Check the real environment after installation.
-
-Traditional Tool Directory
-
-Search → Link → Leave Platform
-
-
-BuilderOS
-
-Search → AI Recommendation → Install → Verify → Continue Building
-
-The key innovation
-
-BuilderOS closes the gap between "I need this tool" and "this tool is actually ready on my machine."
-
-🤖 AI Developer Assistant
+# 🧠 AI-Powered Developer Assistant
 
 The AI integration is designed around the BuilderOS product workflow.
 
-AI Context
+### AI Architecture
+
+    ┌──────────────────────┐
+    │ Developer Question   │
+    └──────────┬───────────┘
+               ↓
+    ┌──────────────────────┐
+    │ BuilderOS Context    │
+    │                      │
+    │ • Technology Catalog │
+    │ • Installed Tools    │
+    │ • OS Context         │
+    │ • Preferences        │
+    └──────────┬───────────┘
+               ↓
+    ┌──────────────────────┐
+    │   Featherless AI     │
+    └──────────┬───────────┘
+               ↓
+    ┌──────────────────────┐
+    │ Recommendation       │
+    └──────────┬───────────┘
+               ↓
+    ┌──────────────────────┐
+    │ Actionable UI        │
+    └──────────────────────┘
+
+### Structured AI Recommendation
+
+    {
+      "slug": "fastapi",
+      "name": "FastAPI",
+      "reason": "Modern Python API framework",
+      "recommendedVersion": "current",
+      "action": "install"
+    }
+
+This allows an AI recommendation to become an actionable BuilderOS workflow.
+
+---
+
+# 🔄 Installation Workflow
+
+    ┌─────────────┐
+    │   Selected  │
+    └──────┬──────┘
+           ↓
+    ┌─────────────┐
+    │  Validated  │
+    └──────┬──────┘
+           ↓
+    ┌─────────────┐
+    │ Installing  │
+    └──────┬──────┘
+           ↓
+    ┌─────────────┐
+    │ Verifying   │
+    └──────┬──────┘
+           ↓
+       ┌───┴────┐
+       ↓        ↓
+    Success    Error
+                 ↓
+         AI Troubleshooting
+
+BuilderOS does not rely only on a frontend success animation.
+
+The local agent performs the actual installation and verification workflow where supported.
+
+---
+
+# 🏗️ System Architecture
+
+    Developer
+        ↓
+    React + Vite Frontend
+        ↓
+    Node.js + Express API
+        ↓
+    ┌───────────────┬────────────────┬────────────────┐
+    ↓               ↓                ↓
+    Technology      MongoDB          Featherless AI
+    Registry
+        ↓
+    Local Installer Agent
+        ↓
+    OS / Package Manager
+        ↓
+    Installation
+        ↓
+    Verification
+        ↓
+    Result → BuilderOS UI
+
+### Architecture Principles
+
+- Frontend handles user experience
+- Backend controls application logic
+- AI credentials remain server-side
+- Technology installation is registry-driven
+- Local agent performs OS-level operations
+- Installation results are verified
+
+---
 
-┌───────────────────────┐
-│ Developer Question    │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ BuilderOS Context     │
-│                       │
-│ • Catalog             │
-│ • Installed Tools     │
-│ • OS Context          │
-│ • Preferences         │
-│ • Current Technology  │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Featherless AI        │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Structured Response   │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Actionable UI         │
-└───────────────────────┘
-
-Structured Recommendations
-
-AI recommendations can be represented in an actionable format such as:
-
-{
-  "slug": "fastapi",
-  "name": "FastAPI",
-  "reason": "Modern Python API framework",
-  "recommendedVersion": "current",
-  "action": "install"
-}
-
-This allows an AI recommendation to become an actual product action.
-
-⚙️ How It Works
-
-Step 1 — Discover
-
-The developer searches the BuilderOS catalog.
-
-Step 2 — Understand
-
-The developer can ask the AI assistant for recommendations.
-
-Step 3 — Select
-
-The developer chooses an individual technology or predefined stack.
-
-Step 4 — Validate
-
-The backend validates the requested technology against the trusted registry.
-
-Step 5 — Install
-
-The local installer agent executes the approved installation workflow.
-
-Step 6 — Verify
-
-The agent checks whether the technology is actually available and retrieves version information where supported.
-
-Step 7 — Continue Building
-
-The developer can immediately continue with the next required tool or stack component.
-
-🏗️ System Architecture
-
-flowchart TB
-    U[Developer]
-
-    F[BuilderOS React Frontend]
-    API[Express REST API]
-    R[Trusted Technology Registry]
-    DB[(MongoDB)]
-    AI[Featherless AI]
-    A[Local Installer Agent]
-    PM[OS / Package Managers]
-    V[Verification Commands]
-
-    U --> F
-    F --> API
-
-    API --> R
-    API --> DB
-    API --> AI
-    API --> A
-
-    A --> PM
-    PM --> V
-    V --> A
-    A --> API
-
-Architecture Principles
-
-Frontend handles user experience
-
-Backend controls application logic
-
-AI credentials remain server-side
-
-Technology installation is registry-driven
-
-Local agent performs OS-level operations
-
-Installation results are verified
-
-🔄 Installation Lifecycle
-
-┌─────────────┐
-│   Selected  │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│  Validated  │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│ Installing  │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│ Verifying   │
-└──────┬──────┘
-       ↓
- ┌────┴─────────────┐
- ↓                  ↓
-┌───────────┐   ┌───────────┐
-│ Completed │   │   Error   │
-└───────────┘   └─────┬─────┘
-                      ↓
-               🤖 AI Troubleshooting
-
-🧰 Technology Stack
-
-Frontend
-
-Technology
-
-Purpose
-
-React 19
-
-User interface
-
-Vite
-
-Development and build tooling
-
-React Router
-
-Application routing
-
-Framer Motion
-
-UI interactions and transitions
-
-Lucide React
-
-Interface icons
-
-Backend
-
-Technology
-
-Purpose
-
-Node.js
-
-Server runtime
-
-Express
-
-REST API
-
-MongoDB
-
-Persistence
-
-Native Node APIs
-
-Local process and system integration
-
-AI
-
-Technology
-
-Purpose
-
-Featherless AI
-
-AI inference
-
-Configurable LLM
-
-Developer recommendations and troubleshooting
-
-Local System
-
-Component
-
-Purpose
-
-Local Installer Agent
-
-Bridge between web application and OS
-
-Package Managers
-
-Software installation
-
-Verification Commands
-
-Installation validation
-
-👨‍💻 Supported Developer Workflows
-
-BuilderOS is designed for multiple developer personas.
-
-🎨 Frontend Developer
-
-Typical needs:
-
-Node.js
-npm
-React
-Vite
-Tailwind CSS
-
-⚙️ Backend Developer
-
-Typical needs:
-
-Node.js
-Python
-FastAPI
-Express
-PostgreSQL
-MongoDB
-Redis
-
-🤖 AI / LLM Developer
-
-Typical needs:
-
-Python
-PyTorch
-Ollama
-Hugging Face
-LangChain
-LlamaIndex
-ChromaDB
-Qdrant
-vLLM
-
-📊 Data Scientist
-
-Typical needs:
-
-Python
-JupyterLab
-NumPy
-Pandas
-Polars
-SciPy
-Scikit-Learn
-Matplotlib
-DuckDB
-
-🚀 DevOps Developer
-
-Typical needs:
-
-Git
-Docker
-Node.js
-Python
-Databases
-CLI tooling
-
-📁 Project Structure
-
-BuilderOS/
-│
-├── src/
-│   ├── components/
-│   │   ├── auth/
-│   │   ├── installation/
-│   │   ├── layout/
-│   │   ├── technologies/
-│   │   └── ui/
-│   │
-│   ├── context/
-│   │
-│   ├── data/
-│   │   ├── categoriesData.js
-│   │   ├── packagesData.js
-│   │   ├── stacksData.js
-│   │   └── technologiesData.js
-│   │
-│   ├── routes/
-│   │   ├── AI.jsx
-│   │   ├── Explore.jsx
-│   │   ├── Installed.jsx
-│   │   ├── Stacks.jsx
-│   │   └── ...
-│   │
-│   ├── services/
-│   │   ├── ai.js
-│   │   ├── api.js
-│   │   ├── auth.js
-│   │   └── installer.js
-│   │
-│   └── App.jsx
-│
-├── server/
-│   ├── agent.js
-│   ├── featherlessService.js
-│   ├── index.js
-│   └── registry.js
-│
-├── .env.example
-├── package.json
-└── README.md
-
-🚀 Installation & Setup
-
-Prerequisites
+# 🧰 Technology Stack
+
+## Frontend
+
+| Technology | Purpose |
+|---|---|
+| React 19 | User Interface |
+| Vite | Frontend Build Tool |
+| React Router | Application Routing |
+| Framer Motion | UI Animations |
+| Lucide React | Icons |
+
+## Backend
+
+| Technology | Purpose |
+|---|---|
+| Node.js | Backend Runtime |
+| Express | REST API |
+| MongoDB | Database |
+| dotenv | Environment Configuration |
+| CORS | API Access |
+
+## AI
+
+| Technology | Purpose |
+|---|---|
+| Featherless AI | AI Inference |
+| Configurable LLM | Recommendations & Troubleshooting |
+
+## Local System
+
+| Component | Purpose |
+|---|---|
+| Local Installer Agent | OS-level installation bridge |
+| Package Managers | Software installation |
+| Verification Commands | Installation validation |
+
+---
+
+# 👨‍💻 Developer Personas
+
+BuilderOS is designed for multiple developer workflows.
+
+## 🎨 Frontend Developer
+
+    Node.js
+    npm
+    React
+    Vite
+    Tailwind CSS
+
+## ⚙️ Backend Developer
+
+    Node.js
+    Python
+    FastAPI
+    Express
+    PostgreSQL
+    MongoDB
+    Redis
+
+## 🤖 AI / LLM Developer
+
+    Python
+    PyTorch
+    Ollama
+    Hugging Face
+    LangChain
+    LlamaIndex
+    ChromaDB
+    Qdrant
+    vLLM
+
+## 📊 Data Scientist
+
+    Python
+    JupyterLab
+    NumPy
+    Pandas
+    Polars
+    SciPy
+    Scikit-Learn
+    Matplotlib
+    DuckDB
+
+## 🚀 DevOps Developer
+
+    Git
+    Docker
+    Node.js
+    Python
+    Databases
+    CLI Tools
+
+---
+
+# 📁 Project Structure
+
+    BuilderOS/
+    │
+    ├── src/
+    │   ├── components/
+    │   │   ├── auth/
+    │   │   ├── installation/
+    │   │   ├── layout/
+    │   │   ├── technologies/
+    │   │   └── ui/
+    │   │
+    │   ├── context/
+    │   │
+    │   ├── data/
+    │   │   ├── categoriesData.js
+    │   │   ├── packagesData.js
+    │   │   ├── stacksData.js
+    │   │   └── technologiesData.js
+    │   │
+    │   ├── routes/
+    │   │   ├── AI.jsx
+    │   │   ├── Explore.jsx
+    │   │   ├── Installed.jsx
+    │   │   ├── Stacks.jsx
+    │   │   └── ...
+    │   │
+    │   ├── services/
+    │   │   ├── ai.js
+    │   │   ├── api.js
+    │   │   ├── auth.js
+    │   │   └── installer.js
+    │   │
+    │   └── App.jsx
+    │
+    ├── server/
+    │   ├── agent.js
+    │   ├── featherlessService.js
+    │   ├── index.js
+    │   └── registry.js
+    │
+    ├── .env.example
+    ├── .gitignore
+    ├── package.json
+    └── README.md
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
 
 Make sure you have:
 
-Node.js 20+
+- Node.js 20+
+- npm
+- MongoDB (optional depending on configuration)
+- Featherless AI API key for AI functionality
 
-npm
+## 1️⃣ Clone the Repository
 
-MongoDB (optional; depending on configured persistence)
+    git clone https://github.com/naveen-kumar-neknar/BuilderOS.git
+    cd BuilderOS
 
-A Featherless AI API key for AI functionality
+## 2️⃣ Install Dependencies
 
-A supported local environment for installer-agent workflows
+    npm install
 
-1. Clone the repository
+## 3️⃣ Configure Environment Variables
 
-git clone https://github.com/naveen-kumar-neknar/BuilderOS.git
-cd BuilderOS
+Create a `.env` file based on `.env.example`.
 
-2. Install dependencies
+Example configuration:
 
-npm install
+    PORT=4000
 
-3. Configure environment variables
+    MONGODB_URI=mongodb://localhost:27017/
+    MONGODB_DB=builderos
 
-Create a local .env file based on .env.example.
+    HACKWAVE_AGENT_URL=http://127.0.0.1:7331
+    HACKWAVE_AGENT_PORT=7331
 
-4. Start the backend
+    FEATHERLESS_API_KEY=your_api_key_here
+    FEATHERLESS_MODEL=your_model
+    FEATHERLESS_BASE_URL=https://api.featherless.ai/v1
 
-npm run server
+## 4️⃣ Start the Backend
 
-5. Start the local installer agent
+    npm run server
 
-npm run agent
+## 5️⃣ Start the Local Installer Agent
 
-6. Start the frontend
+    npm run agent
 
-npm run dev
+## 6️⃣ Start the Frontend
 
-Or use the combined development command
+    npm run dev
 
-npm run dev:full
+---
 
-🔐 Environment Variables
+# ⚡ Available Commands
 
-Example:
+| Command | Description |
+|---|---|
+| `npm run dev` | Start frontend development server |
+| `npm run server` | Start Express backend |
+| `npm run agent` | Start local installer agent |
+| `npm run dev:full` | Start frontend + backend |
+| `npm run dev:all` | Start frontend + backend + agent |
+| `npm run build` | Build production frontend |
+| `npm run lint` | Run linting |
+| `npm run preview` | Preview production build |
 
-PORT=4000
+---
 
-MONGODB_URI=mongodb://localhost:27017/
-MONGODB_DB=builderos
+# 🔌 API Endpoints
 
-HACKWAVE_AGENT_URL=http://127.0.0.1:7331
-HACKWAVE_AGENT_PORT=7331
+## Health
 
-FEATHERLESS_API_KEY=your_server_side_api_key
-FEATHERLESS_MODEL=your_model
-FEATHERLESS_BASE_URL=https://api.featherless.ai/v1
+    GET /api/health
 
-⚠️ Never commit a real API key to GitHub.
+## Authentication
 
-Keep .env local and add it to .gitignore.
+    POST /api/auth/register
+    POST /api/auth/login
+    GET  /api/auth/me
+    POST /api/auth/logout
+    POST /api/auth/forgot-password
+    POST /api/auth/reset-password
 
-🔌 API Overview
+## Technologies
 
-Health
+    GET /api/technologies
+    GET /api/technologies/:slug
 
-GET /api/health
+## Installation
 
-Authentication
+    POST /api/install
+    GET  /api/install/:jobId
+    GET  /api/activity
 
-POST /api/auth/register
-POST /api/auth/login
-GET  /api/auth/me
-POST /api/auth/logout
-POST /api/auth/forgot-password
-POST /api/auth/reset-password
+## AI
 
-Technologies
+    GET  /api/ai/status
+    POST /api/ai/chat
+    POST /api/ai/troubleshoot
+    POST /api/ai/assist
 
-GET /api/technologies
-GET /api/technologies/:slug
+---
 
-Installation
+# 🔐 Security
 
-POST /api/install
-GET  /api/install/:jobId
-GET  /api/activity
+Security is an important part of the BuilderOS architecture.
 
-AI
+### Trusted Technology Registry
 
-GET  /api/ai/status
-POST /api/ai/chat
-POST /api/ai/troubleshoot
-POST /api/ai/assist
-
-🔒 Security
-
-BuilderOS follows a registry-driven installation model.
-
-Trusted Technology Registry
-
-The frontend does not directly provide arbitrary shell commands for execution.
+The frontend does not directly send arbitrary shell commands for execution.
 
 Instead:
 
-Technology Slug
-      ↓
-Backend Validation
-      ↓
-Trusted Registry
-      ↓
-Local Agent Validation
-      ↓
-Approved Installation
+    Technology Slug
+          ↓
+    Backend Validation
+          ↓
+    Trusted Registry
+          ↓
+    Local Agent Validation
+          ↓
+    Approved Installation
 
-AI Credential Protection
+### AI Credentials
 
-AI provider credentials should remain server-side and must never be exposed in frontend source code.
+AI provider credentials should remain server-side.
 
-Environment Sanitization
+Never expose API keys inside frontend source code.
 
-Sensitive-looking credentials and tokens should be removed from diagnostic context before sending relevant information to external AI services.
+### Environment Variables
 
-Verification
+Never commit:
 
-Installation status is based on actual process and verification results rather than simply assuming success after a button click.
+    .env
+    API keys
+    Access tokens
+    Database passwords
+    Private credentials
 
-🧪 Development Commands
+### Verification
 
-Command
+Installation success should be based on actual process and verification results rather than a frontend animation.
 
-Description
+---
 
-npm run dev
+# 🏆 Hackathon Demo Flow
 
-Start frontend development server
+## 1. Show the Problem
 
-npm run server
+> Developers spend too much time finding, installing and configuring the tools required for a project.
 
-Start Express API
+## 2. Open Technology Explorer
 
-npm run agent
+Demonstrate:
 
-Start local installer agent
+- Search
+- Categories
+- Technology generations
+- Pricing filters
+- Technology details
 
-npm run dev:full
-
-Start frontend + backend
-
-npm run dev:all
-
-Start frontend + backend + agent
-
-npm run build
-
-Build production frontend
-
-npm run lint
-
-Run linting
-
-npm run preview
-
-Preview production build
-
-🏆 Hackathon Demo Flow
-
-For a strong live demonstration:
-
-01 — Show the problem
-
-"Developers spend too much time finding, installing and configuring the tools required for a project."
-
-02 — Open BuilderOS Explore
-
-Show the technology catalog and filtering.
-
-03 — Ask the AI
+## 3. Ask the AI
 
 Example:
 
-Build me a completely free local AI development stack.
+> **Build me a completely free local AI development stack.**
 
 Show the recommendations.
 
-04 — Select a stack
+## 4. Select a Stack
 
-Open a developer stack and review the required technologies.
+Open a developer stack and show the required technologies.
 
-05 — Install
+## 5. Install
 
 Trigger an installation through BuilderOS.
 
-06 — Verify
+## 6. Verify
 
-Show the installation state and detected version.
+Show the actual installation status and detected version.
 
-07 — Demonstrate troubleshooting
+## 7. Demonstrate Troubleshooting
 
-Use an installation failure to demonstrate the AI troubleshooting workflow.
+Show how BuilderOS can analyze an installation failure and provide the next action.
 
-08 — Deliver the final message
+## 8. Final Pitch
 
-"BuilderOS doesn't just tell developers what to install. It helps make the developer environment ready."
+> **"BuilderOS doesn't just tell developers what to install. It helps make their development environment ready."**
 
-📈 Current Technology Coverage
+---
 
-BuilderOS currently contains a broad technology catalog covering:
+# 📊 Technology Coverage
 
-AI & LLM
+### 🤖 AI & LLM
 
 Ollama · PyTorch · TensorFlow · vLLM · ChromaDB · Qdrant · LangChain · LlamaIndex · Hugging Face · OpenAI · Anthropic
 
-Data & ML
+### 📊 Data & ML
 
 NumPy · Pandas · Matplotlib · Scikit-Learn · Seaborn · SciPy · Polars · DuckDB · XGBoost · JupyterLab
 
-Frontend
+### 🎨 Frontend
 
 React · Next.js · Vue · Svelte · Tailwind CSS · Vite · jQuery
 
-Backend & Runtimes
+### ⚙️ Backend & Runtimes
 
 Node.js · Bun · Deno · Python · FastAPI · Express · Go · Rust · npm · PHP
 
-Databases & Infrastructure
+### 🗄️ Databases & Infrastructure
 
 PostgreSQL · MySQL · SQLite · MongoDB · Redis · Git · Docker
 
-🗺️ Future Roadmap
+---
 
-Phase 1 — Smarter Local Setup
+# 🔮 Future Scope
 
-More OS/package-manager integrations
+## Phase 1 — Smarter Local Setup
 
-Improved installation verification
+- More OS integrations
+- More package managers
+- Improved installation verification
+- Dependency conflict detection
+- Better installation recovery
 
-Dependency conflict detection
+## Phase 2 — Reproducible Environments
 
-Better installation recovery
+- Environment manifests
+- Import/export environments
+- Project-aware dependency detection
+- Stack compatibility scoring
 
-Phase 2 — Reproducible Environments
+## Phase 3 — Team Workstations
 
-Environment manifests
+- Shared team stacks
+- Organization templates
+- Standardized developer environments
+- Team environment synchronization
 
-Import/export developer environments
+## Phase 4 — Developer Infrastructure Platform
 
-Project-aware dependency detection
+    Tool Discovery
+          ↓
+    AI Stack Intelligence
+          ↓
+    Environment Provisioning
+          ↓
+    Verification
+          ↓
+    Reproducibility
+          ↓
+    Team Infrastructure
 
-Stack compatibility scoring
+---
 
-Phase 3 — Team Workstations
+# 🌎 Project Vision
 
-Shared team stacks
+BuilderOS starts with a simple question:
 
-Organization templates
+> **"What do I need to install to start building?"**
 
-Standardized developer environments
+Our long-term vision is:
 
-Team environment synchronization
+> **"Give every developer an intelligent, reproducible and self-aware development environment."**
 
-Phase 4 — Developer Infrastructure Platform
+BuilderOS can evolve from a developer technology discovery platform into a complete **developer environment operating layer**.
 
-Tool Discovery
-      ↓
-AI Stack Intelligence
-      ↓
-Environment Provisioning
-      ↓
-Verification
-      ↓
-Reproducibility
-      ↓
-Team Infrastructure
+---
 
-🌎 Project Vision
+# 👥 Team
 
-BuilderOS starts with a simple problem:
+## Team BuilderOS
 
-"What do I need to install to start building?"
+| Member | Role |
+|---|---|
+| 🧑‍✈️ **Nagabrahmeswar Pusapati** | **Captain** |
+| 💻 **Naveen Kumar Neknar** | **Full-Stack Development & AI Integration** |
+| 🛠️ **Aditya Upadhyay** | **Development & Product Engineering** |
+| 🚀 **Anush Kumar** | **Development & Testing** |
 
-The long-term vision is much bigger:
+### 👨‍💻 Team Members
 
-"Give every developer an intelligent, reproducible and self-aware development environment."
+**Nagabrahmeswar Pusapati (Captain)**  
+**Naveen Kumar Neknar**  
+**Aditya Upadhyay**  
+**Anush Kumar**
 
-BuilderOS can evolve from a local tool discovery platform into a developer environment operating layer.
+---
 
-💎 Why This Matters
-
-The modern development ecosystem is incredibly powerful — but also increasingly fragmented.
-
-Developers shouldn't need to remember:
-
-which package manager to use
-
-where a tool is installed
-
-which version is compatible
-
-what command verifies it
-
-how multiple tools fit together
-
-BuilderOS aims to make the environment itself intelligent.
-
-Discover less. Build more.
-
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome.
 
-Fork the repository
+### 1. Fork the repository
 
-Create a feature branch
+### 2. Create a feature branch
 
-git checkout -b feature/your-feature
+    git checkout -b feature/your-feature
 
-Commit your changes
+### 3. Commit your changes
 
-git commit -m "feat: add your feature"
+    git commit -m "feat: add your feature"
 
-Push the branch
+### 4. Push your branch
 
-git push origin feature/your-feature
+    git push origin feature/your-feature
 
-Open a Pull Request
+### 5. Open a Pull Request
 
-📜 License
+---
 
-This project is intended for hackathon and educational development.
+# 📜 License
 
-Add the final project license here before public production distribution.
+This project was developed as part of a hackathon project.
 
-⭐ BuilderOS
+Add the appropriate open-source license before production distribution.
+
+---
+
+# ⭐ BuilderOS
 
 <p align="center">
 
-Discover. Decide. Install. Verify. Build.
+## 🔎 Discover. 🤖 Decide. ⚡ Install. ✅ Verify. 💻 Build.
 
-An AI-powered developer environment platform built for the next generation of developers.
+### AI-powered developer environment management for the next generation of developers.
 
 </p>
